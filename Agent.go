@@ -383,7 +383,7 @@ url := fmt.Sprintf("https://api.telegram.org/bot%s/sendMessage", BOT_API_KEY)
 
 // Create a new Telegram message for the first channel
 msg1 := map[string]string{
-    "chat_id": "7043909573",
+    "chat_id": "1003998122640",
     "text":    "new beacon 🥳: " + fmt.Sprint(id),
 }
 
